@@ -66,7 +66,7 @@ Build the frontend:
 npm run build
 ```
 
-Open the packaged-style desktop app locally:
+Run the built Electron app:
 
 ```bash
 npm run desktop
@@ -146,7 +146,6 @@ POS_CURRENCY=PKR
 POS_DB_FILE=pizza-pos.sqlite
 ```
 
-For packaged Electron builds, you can also set these environment variables before launching the app if you need deployment-specific overrides.
 
 ### 5. App icon
 
